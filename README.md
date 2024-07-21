@@ -37,7 +37,7 @@ PyTorch with CUDA support are required. Our code is tested on python 3.9, torch 
 We recommend installing the packages in the following order:
 ```
 # prepare python env
-conda create -n python=3.9 adaptigraph
+conda create -n adaptigraph python=3.9 
 conda activate adaptigraph
 
 # install PyTorch. We use 2.2.1+cu121 as an example:
